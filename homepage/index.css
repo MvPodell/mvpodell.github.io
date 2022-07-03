@@ -1,3 +1,14 @@
 * {
   font-family: Helvetica;
 }
+
+h1 {
+  font-family: "Inknut Antiqua";
+  font-size: 80px;
+  line-height: 1.5;
+  color: antiquewhite;
+  background-color: 
+  background-color: rgba(82, 109, 36, 0.757);
+  width: 100%;
+  z-index: 1;
+}
