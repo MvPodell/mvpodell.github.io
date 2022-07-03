@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors Cheatheet</title>
+        <link href="CSSselectorSheetStyles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="banner">CSS Selectors Cheatsheet!</h1>
+            <h3>CSS selectors help HTML developers to specify styles for individual elements of their code. 
+                They can select HTML elements by type, class, ID, and attribute. </h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Selector Name</th>
+                    <th>Selector Format</th>
+                    <th>Level of Specificity</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Universal</td>
+                    <td class="code">* {...}</td>
+                    <td>Least</td>
+                    <td>All HTML elements are selected using the universal selector. When CSS rules are written in 
+                        this format, every HTML on the page will be assigned those styling rules. </td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td class ="code"> &lttype&gt{...}</td>
+                    <td>Low</td>
+                    <td>Selects HTML elements of a certain type and applies the same CSS rules to 
+                        all of them. If a more specific selector addresses a certain element that would normally 
+                        fall under this type's jurisdiction, HTML uses the rules laid down by the more specific
+                        CSS selector, therefore always overriding this selector since it is the weakest. </td>
+                </tr>
+                <!-- Class section -->
+                <tr>
+                    <td>Class</td>
+                    <td class="code">.className {...}</td>
+                    <td>Medium</td>
+                    <td>Classes are reusable labels for HTML elements. CSS styling rules 
+                        inside a class are only applied to HTML elements with the specified class
+                         passed in as a <strong>class</strong> property. A class property can take 
+                         in more than one class, separated by a space, to assign the CSS rules of more 
+                         than 1 class to an HTML element.</td>
+                </tr>
+                <tr>
+                    <td>ID</td>
+                    <td class="code">#idName {...}</td>
+                    <td>Highest</td>
+                    <td>Selects the HTML element with the specificed <strong>id</strong> property passed in passed in.
+                         This can only be used once in an HTML file, and is the most specific selector. </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Beyond these 4 selector types, there are a few other tricks that are useful when writing selectors.</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Format</th>
+                    <th>Use</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">selector selector {...}</td>
+                    <td>Use this format in order to style elements that have ALL the specified elements.</td>
+                </tr>
+                <tr>
+                    <td class="code">selector, selector {...}</td>
+                    <td>Note the comma in this selector format. You can use this format to style multiple elements 
+                        of different specifities (id, class, or type). This saves the coder the hassle of having to 
+                        write out the same style rules for different selectors.</td>
+                <tr>
+                    <td class="code">type.class {...}</td>
+                    <td>Use this format in order to style elements of a certain type that also have a specific class. </td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
