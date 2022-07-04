@@ -13,6 +13,10 @@
   margin-bottom: 30px;
 }
 
+.intro p {
+  line-height: 1.3;
+}
+
 #id {
   grid-column: 1;
 }
@@ -20,11 +24,13 @@
 .introText h3 {
   grid-column: 2;
   margin: auto 15px;
+  min-width: 500px;
 }
 
 .inlineLink {
   text-decoration: wavy underline;
   color:rgb(82, 109, 36);
+  cursor: pointer;
 }
 
 .inlineLink:hover {
