@@ -1,17 +1,43 @@
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: inline-block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
 }
 
 h1 {
-  font-family: "Inknut Antiqua";
-  font-size: 80px;
   line-height: 1.5;
+  color: rgb(82, 109, 36);
+  font-size: 80px;
+}
+h2 {
+  /* width: 800px; */
+  line-height: 1;
   color: rgba(82, 109, 36, 0.757);
 }
 
-.banner {
+h1, h2 {
   text-align: center;
+  display: block;
+  margin: 10px auto;
+  font-family: 'Inknut Antiqua';
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 
+hr.rounded {
+  border-top: 8px solid rgba(82, 109, 36, 0.757);
+  border-radius: 5px;
+} */
+
+.body {
+  margin: auto 200px;
+}
+
+.banner {
+  /* background-color: rgba(82, 109, 36, 0.757); */
   width: 100%;
   z-index: 1;
 }
+
