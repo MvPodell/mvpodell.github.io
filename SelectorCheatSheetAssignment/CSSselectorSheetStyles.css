@@ -31,9 +31,9 @@ td {
 
 h1 {
     font-size: 80px;
-    width: 80%;
     line-height: 1.5;
     color: antiquewhite;
+    position: relative;
 }
 h3 {
     width: 800px;
@@ -52,10 +52,11 @@ strong {
     background-color: white;
 }
 
-.banner {
+.banner h1 {
     background-color: rgba(82, 109, 36, 0.757);
-    width: 100%;
+    width: 100vw;
     z-index: 1;
+    margin: 10px 0px auto 0px;
 }
 
 .code {
