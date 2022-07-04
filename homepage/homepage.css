@@ -3,7 +3,12 @@
   font-family: 'Karla', sans-serif;
 }
 
-
+.header {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
 
 /* intro!!! */
 .intro {
@@ -109,7 +114,8 @@ p {
 }
 
 .body {
-  margin: auto 200px;
+  margin: auto;
+  max-width: 1020px;
 }
 
 .banner {
