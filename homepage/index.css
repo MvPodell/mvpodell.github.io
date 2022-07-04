@@ -1,11 +1,13 @@
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  color: rgb(82, 109, 36);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  line-height: 1.5;
-  color: rgb(82, 109, 36);
-  font-size: 80px;
+  line-height: 1;
+  font-size: 150px;
+  font-family: 'Lilita One';
+  
 }
 h2 {
   /* width: 800px; */
@@ -17,7 +19,7 @@ h1, h2 {
   text-align: center;
   display: block;
   margin: 10px auto;
-  font-family: 'Inknut Antiqua';
+  /* font-family: 'Inknut Antiqua'; */
 }
 
 img {
