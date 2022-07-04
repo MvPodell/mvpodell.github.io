@@ -17,7 +17,7 @@
 }
 
 hr {
-  width: 1020px;
+  width: 71%;
   border: 2px solid rgba(82, 109, 36, 0.757);
   border-radius: 5px;
   margin: 15px auto;
@@ -26,7 +26,7 @@ hr {
 /* intro!!! */
 .intro {
   display: grid;
-  width: 1020px;
+  width: 100%;
   grid-template-columns: 1fr 2fr;
   gap: 15px;
   margin-bottom: 30px;
@@ -43,7 +43,7 @@ hr {
 .introText h3 {
   grid-column: 2;
   margin: auto 15px;
-  min-width: 500px;
+  /* min-width: 500px; */
 }
 
 .inlineLink {
@@ -59,7 +59,6 @@ hr {
 img {
   display: inline-block;
   width: 100%;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -115,7 +114,7 @@ a.button {
   border-radius: 10px;
   color: rgb(249, 242, 232);
   padding: 15px 32px;
-  margin: auto 5px;
+  margin: 5px 5px;
   text-align: center;
   display: inline-block;
   font-size: 25px;
@@ -152,12 +151,12 @@ a.button:active {
 
 .body {
   margin: 0 auto;
-  width: 1000px;
+  width: 70%;
 }
 
 #page {
   background-color: rgb(249, 242, 232);
-  width: 1020px;
+  width: 73%;
   margin: 0px auto;
   padding: 20px;
   display: grid;
