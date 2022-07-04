@@ -3,6 +3,47 @@
   font-family: 'Karla', sans-serif;
 }
 
+
+
+/* intro!!! */
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+#id {
+  grid-column: 1;
+}
+
+.introText h3 {
+  grid-column: 2;
+  margin: auto 15px;
+}
+
+.inlineLink {
+  text-decoration: wavy underline;
+  color:rgb(82, 109, 36);
+}
+
+.inlineLink:hover {
+  color:rgb(104, 137, 45);
+}
+
+
+img {
+  display: inline-block;
+  width: 400px;
+  height: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+/* body!!! */
+
 h1 {
   line-height: 1;
   font-size: 150px;
@@ -15,6 +56,10 @@ h2 {
   color: rgba(82, 109, 36, 0.757);
 }
 
+h3 {
+  font-weight: 800;
+}
+
 
 h1, h2 {
   text-align: center;
@@ -24,13 +69,7 @@ h1, h2 {
   /* font-family: 'Inknut Antiqua'; */
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-a {
+a.button {
   background-color: rgba(82, 109, 36, 0.757); 
   border: 4px solid rgba(82, 109, 36, 0.757);
   border-radius: 10px;
@@ -44,14 +83,14 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a.button:hover {
   background-color:white;
   border: 4px solid rgba(82, 109, 36, 0.757);
   color:rgba(82, 109, 36, 0.757);
   cursor: pointer;
 }
 
-a:active {
+a.button:active {
   transform: translateY(4px);
   /* background-color: rgba(113, 150, 50, 0.757); 
   color: white; */
@@ -62,12 +101,6 @@ p {
   margin: 15px;
   font-family: "Karla";
 }
-
-/* 
-hr.rounded {
-  border-top: 8px solid rgba(82, 109, 36, 0.757);
-  border-radius: 5px;
-} */
 
 .body {
   margin: auto 200px;
